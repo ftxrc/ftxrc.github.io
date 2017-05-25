@@ -1,0 +1,57 @@
+/* My portfolio's hand written CSS. */
+
+#hero-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+#hero-subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+#hero-img {
+    margin: 0 auto;
+    /* Aesthetics, man. */
+    margin-top: -55px;
+    margin-bottom: 20px;
+}
+
+#hero-footer-text {
+    padding: 30px;
+}
+
+#hero-columns {
+}
+
+#hero-column {
+    display: flex;
+    justify-content: center;
+}
+
+.img-circle {
+    border-radius: 100px;
+}
+
+.hero-fullscreen {
+    height: 90vh;
+}
+
+.profile-media {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
+    margin: 0 auto;
+    text-align: left;
+}
+.profile-media > img {
+    margin: 0 1rem 0 0;
+}
+.profile-media > div {
+    flex: 1;
+}
+.profile-media h2 {
+    margin: 0 0 0.5rem 0;
+}

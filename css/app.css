@@ -55,3 +55,8 @@
 .profile-media h2 {
     margin: 0 0 0.5rem 0;
 }
+
+.undecorated {
+    text-decoration: none;
+    color: black;
+}
